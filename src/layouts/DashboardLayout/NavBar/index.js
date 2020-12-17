@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import {
   Avatar,
   Box,
-
   Divider,
   Drawer,
   Hidden,
@@ -13,7 +12,7 @@ import {
   makeStyles
 } from '@material-ui/core';
 import {
-  TrendingUp as TrendingUpIcon,
+  // TrendingUp as TrendingUpIcon,
   Book as BookIcon,
   User as UserIcon,
   BarChart as BarChartIcon,
