@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-import {
-  Container,
-  makeStyles,
-} from "@material-ui/core";
+import { Container, makeStyles } from "@material-ui/core";
 import Page from "src/components/Page";
 import SkillCard from "./SkillCard";
 import data from "./data";
@@ -22,68 +19,25 @@ const useStyles = makeStyles((theme) => ({
 
 const SkillList = () => {
   const classes = useStyles();
-  const [skills] = useState(data);
+  const [frontEndSkills] = useState(data);
+  const [backEndSkills] = useState(data);
+  const [otherskills] = useState(data);
 
   return (
     <Page className={classes.root} title="Skills">
       <Container maxWidth={false}>
-
         <SkillCard
-        title = "FrontEnd"
-        skills = {skills.filter(skill=> skill.type = FRONTEND)}
-        />
-
-<SkillCard
-        title = "BackEnd"
-        skills = {skills.filter(skill=> skill.type = BACKEND)}
+          title="FrontEnd"
+          skills={frontEndSkills.filter((skill) => (skill.type === FRONTEND))}
         />
         <SkillCard
-        title = "Other"
-        skills = {skills.filter(skill=> skill.type = OTHER)}
+          title="BackEnd"
+          skills={backEndSkills.filter((skill) => (skill.type === BACKEND))}
         />
-        {/* <Card>
-          <CardHeader title="FrontEnd" />
-          <Divider />
-          <CardContent>
-            <Grid container spacing={3}>
-              {skills.map((skill) => (
-                <Grid item key={skill.id} lg={2} md={3} xs={6}>
-                  <SkillCard className={classes.skillCard} skill={skill} />
-                </Grid>
-              ))}
-            </Grid>
-          </CardContent>
-        </Card>
-        <Box mt={3}>
-        <Card>
-          <CardHeader title="BackEnd" />
-          <Divider />
-          <CardContent>
-            <Grid container spacing={3}>
-              {skills.map((skill) => (
-                <Grid item key={skill.id} lg={2} md={3} xs={6}>
-                  <SkillCard className={classes.skillCard} skill={skill} />
-                </Grid>
-              ))}
-            </Grid>
-          </CardContent>
-          </Card>
-        </Box>
-        <Box  mt={3}>
-        <Card>
-          <CardHeader title="BackEnd" />
-          <Divider />
-          <CardContent>
-            <Grid container spacing={3}>
-              {skills.map((skill) => (
-                <Grid item key={skill.id} lg={2} md={3} xs={6}>
-                  <SkillCard className={classes.skillCard} skill={skill} />
-                </Grid>
-              ))}
-            </Grid>
-          </CardContent>
-          </Card>
-        </Box> */}
+        <SkillCard
+          title="Other"
+          skills={otherskills.filter((skill) => (skill.type === OTHER))}
+        />
       </Container>
     </Page>
   );

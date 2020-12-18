@@ -23,8 +23,9 @@ const useStyles = makeStyles((theme) => ({
   },
   media: {
     height: 0,
-    paddingTop: '5.25%',
-    width: 200,
+    paddingTop: "5.25%",
+    maxWidth: 255,
+    backgroundSize: 'contain',
   },
 }));
 

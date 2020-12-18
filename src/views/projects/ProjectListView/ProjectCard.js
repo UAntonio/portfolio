@@ -29,12 +29,10 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     display: "flex",
   },
-  statsIcon: {
-    marginRight: theme.spacing(1),
-  },
   media: {
     height: 140,
     paddingTop: '56.25%',
+    backgroundSize: 'contain',
   },
 }));
 

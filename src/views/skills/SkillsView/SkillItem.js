@@ -18,6 +18,7 @@ const useStyles = makeStyles((theme) => ({
   media: {
     paddingTop: '30.25%', 
     height: 140,
+    backgroundSize: 'contain',
   },
 }));
 
@@ -32,7 +33,7 @@ const SkillItem = ({ className, skill, ...rest }) => {
         title={skill.title}
       />
       <CardContent>
-        <Typography variant="body2" color="textSecondary" component="p">
+        <Typography variant="body2" color="textSecondary" component="p" align="center" >
           {skill.title}
         </Typography>
       </CardContent>

@@ -16,10 +16,6 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "column",
     maxWidth: 200,
   },
-  media: {
-    paddingTop: '30.25%', 
-    height: 140,
-  },
 }));
 
 const SkillCard = ({ className, skills,title, ...rest }) => {
