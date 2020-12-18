@@ -13,7 +13,7 @@ export default [
   {
     id: uuid(),
     description: 'Store special events that are worthy to be remember.',
-    media: '/static/images/projects/product_3.png',
+    media: '/static/images/projects/memories.png',
     title: 'Memory Storage',
     stack: 'MongoDB, Express, React, JavaScript',
     gitUrl: 'https://github.com/UAntonio/memoryProject',
@@ -31,7 +31,7 @@ export default [
   {
     id: uuid(),
     description: 'Simple look alike of tinder, swipe left or right on the active profiles',
-    media: '/static/images/projects/product_5.png',
+    media: '/static/images/projects/tinderclone.png',
     title: 'Tinder clone',
     stack: 'MongoDB, Express, React, JavaScript',
     gitUrl: 'https://github.com/UAntonio/',
