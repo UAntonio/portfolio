@@ -79,7 +79,7 @@ const ProjectCard = ({ className, project, ...rest }) => {
             </Fab>
             
           </Grid>
-          <Grid className={classes.statsItem} item>
+          <Grid className={classes.statsItem} item >
             <Button
               color="primary"
               fullWidth
