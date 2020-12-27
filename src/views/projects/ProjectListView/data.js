@@ -37,14 +37,14 @@ export default [
     gitUrl: 'https://github.com/UAntonio/tinder-clone',
     liveUrl: 'https://tinderclone2020.netlify.app',
   },
-  {
-    id: uuid(),
-    description: 'Something that looks like tic tok',
-    media: '/static/images/projects/product_6.png',
-    title: 'Tick Tock clone',
-    stack: 'MongoDB, Express, React, JavaScript',
-    gitUrl: 'https://github.com/UAntonio/TikTokClone',
-    liveUrl: 'https://www.google.com/',
-  },
+  // {
+  //   id: uuid(),
+  //   description: 'Something that looks like tic tok',
+  //   media: '/static/images/projects/product_6.png',
+  //   title: 'Tik Tok clone',
+  //   stack: 'MongoDB, Express, React, JavaScript',
+  //   gitUrl: 'https://github.com/UAntonio/TikTokClone',
+  //   liveUrl: 'https://www.google.com/',
+  // },
 
 ];
