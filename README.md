@@ -165,7 +165,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - uantonio@csumb.edu
+Uriel Antonio - uantonio@csumb.edu
 
 Project Link: [https://github.com/UAntonio/portfolio](https://github.com/UAntonio/portfolio)
 
@@ -184,15 +184,15 @@ Project Link: [https://github.com/UAntonio/portfolio](https://github.com/UAntoni
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/UAntonio/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/UAntonio/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/UAntonio/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/UAntonio/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/UAntonio/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/UAntonio/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/UAntonio/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/UAntonio/repo/issues
-[license-shield]: https://img.shields.io/github/license/UAntonio/repo.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/UAntonio/portfolio.svg?style=for-the-badge
+[contributors-url]: https://github.com/UAntonio/portfolio/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/UAntonio/portfolio.svg?style=for-the-badge
+[forks-url]: https://github.com/UAntonio/portfolio/network/members
+[stars-shield]: https://img.shields.io/github/stars/UAntonio/portfolio.svg?style=for-the-badge
+[stars-url]: https://github.com/UAntonio/portfolio/stargazers
+[issues-shield]: https://img.shields.io/github/issues/UAntonio/portfolio.svg?style=for-the-badge
+[issues-url]: https://github.com/UAntonio/portfolio/issues
+[license-shield]: https://img.shields.io/github/license/UAntonio/portfolio.svg?style=for-the-badge
 [license-url]: https://github.com/UAntonio/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/UAntonio
+[linkedin-url]: https://linkedin.com/in/urielantonio
