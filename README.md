@@ -39,12 +39,12 @@
   <h3 align="center">Portfolio</h3>
 
   <p align="center">
-    project_description
+    This is a portfolio page to Display projects that have been worked on. 
     <br />
     <a href="https://github.com/UAntonio/portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/UAntonio/portfolio">View Demo</a>
+    <a href="https://uriel-antonio.tech/">View WebPage</a>
     ·
     <a href="https://github.com/UAntonio/portfolio/issues">Report Bug</a>
     ·
@@ -85,16 +85,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`UAntonio`, `portfolio`, `twitter_handle`, `uantonio@csumb.edu`, `Portfolio`, `project_description`
-
+[![Product Name Screen Shot][product-screenshot]](https://uriel-antonio.tech)
 
 ### Built With
 
-* []()
+* [React](https://reactjs.org/)
 * []()
 * []()
 
@@ -113,6 +108,7 @@ This is an example of how to list things you need to use the software and how to
   npm install npm@latest -g
   ```
 
+<!-- Installation to be updated to Docker-->
 ### Installation
 
 1. Clone the repo
