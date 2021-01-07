@@ -4,7 +4,7 @@ export default [
   {
     id: uuid(),
     description: 'Find recipes online by ingredient that you would want to cook with.',
-    media: '/static/images/projects/product_1.png',
+    media: '/static/images/projects/BasicFoodSearch.png',
     title: 'Food Search',
     stack: 'JavaScript',
     gitUrl: 'https://github.com/UAntonio/FoodSearch',
