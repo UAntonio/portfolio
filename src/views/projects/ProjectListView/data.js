@@ -8,7 +8,7 @@ export default [
     title: 'Food Search',
     stack: 'JavaScript',
     gitUrl: 'https://github.com/UAntonio/FoodSearch',
-    liveUrl: 'https://www.google.com/',
+    liveUrl: 'https://foodfinder2020.netlify.app/',
   },
   {
     id: uuid(),
