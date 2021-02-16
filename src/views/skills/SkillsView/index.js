@@ -27,11 +27,11 @@ const SkillList = () => {
     <Page className={classes.root} title="Skills">
       <Container maxWidth={false}>
         <SkillCard
-          title="FrontEnd"
+          title="Front-End"
           skills={frontEndSkills.filter((skill) => (skill.type === FRONTEND))}
         />
         <SkillCard
-          title="BackEnd"
+          title="Back-End"
           skills={backEndSkills.filter((skill) => (skill.type === BACKEND))}
         />
         <SkillCard

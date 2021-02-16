@@ -12,9 +12,9 @@ import {
 
 const user = {
   avatar: '/static/images/avatars/avatar_6.png',
-  city: 'Monteterey Bay',
+  city: 'Monteterey Bay, ',
   country: 'USA',
-  jobTitle: 'Senior Developer',
+  jobTitle: 'Software Developer Test',
   name: 'Uriel Munoz Antonio',
   timezone: 'PST'
 };

@@ -10,6 +10,7 @@ import {
   makeStyles,
   CardMedia,
   Link,
+  Grid,
 } from "@material-ui/core";
 import Page from "src/components/Page";
 
@@ -22,10 +23,9 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
   },
   media: {
-    height: 0,
-    paddingTop: "5.25%",
-    maxWidth: 255,
-    backgroundSize: 'contain',
+    paddingTop: "30.25%",
+    height: 140,
+    backgroundSize: "contain",
   },
 }));
 
@@ -60,35 +60,58 @@ const EducationView = () => {
             <CardHeader title="Certificates" />
             <Divider />
             <CardContent>
-              <Link
-                href="https://www.youracclaim.com/badges/dbc83ce0-a012-4be6-a404-c58d8ba6ffd4/public_url"
-                target="_blank"
-              >
-                <CardMedia
-                  className={classes.media}
-                  image="/static/images/certifications/aws-certified-developer-associate.png"
-                  href="https://www.youracclaim.com/badges/dbc83ce0-a012-4be6-a404-c58d8ba6ffd4/public_url"
-                  target="_blank"
-                  title="Developer Associate"
-                />
-              </Link>
-              <Typography variant="body2" color="textSecondary" component="p">
-                AWS Certified Developer - Associate
-              </Typography>
-              <Divider />
-              <Link
-                href="https://www.youracclaim.com/badges/f4cf6526-4956-4229-85dd-8106d73f6ba2/public_url"
-                target="_blank"
-              >
-                <CardMedia
-                  className={classes.media}
-                  image="/static/images/certifications/aws-certified-cloud-practitioner.png"
-                  title="Developer Associate"
-                />
-              </Link>
-              <Typography variant="body2" color="textSecondary" component="p">
-                AWS Certified Developer - Associate
-              </Typography>
+              <Grid container spacing={3}>
+                <Grid item key={1} lg={2} md={3} xs={6}>
+                  <Card>
+                    <Link
+                      href="https://www.youracclaim.com/badges/f4cf6526-4956-4229-85dd-8106d73f6ba2/public_url"
+                      target="_blank"
+                    >
+                      <CardMedia
+                        className={classes.media}
+                        image="/static/images/certifications/aws-certified-cloud-practitioner.png"
+                        title="Cloud Practitioner"
+                      />
+                    </Link>
+                    <CardContent>
+                      <Typography
+                        variant="body2"
+                        color="textSecondary"
+                        component="p"
+                        align="center"
+                      >
+                        Cloud Practitioner
+                      </Typography>
+                    </CardContent>
+                  </Card>
+                </Grid>
+                <Grid item key={0} lg={2} md={3} xs={6}>
+                  <Card>
+                    <Link
+                      href="https://www.youracclaim.com/badges/dbc83ce0-a012-4be6-a404-c58d8ba6ffd4/public_url"
+                      target="_blank"
+                    >
+                      <CardMedia
+                        className={classes.media}
+                        image="/static/images/certifications/aws-certified-developer-associate.png"
+                        href="https://www.youracclaim.com/badges/dbc83ce0-a012-4be6-a404-c58d8ba6ffd4/public_url"
+                        target="_blank"
+                        title="Developer Associate"
+                      />
+                    </Link>
+                    <CardContent>
+                      <Typography
+                        variant="body2"
+                        color="textSecondary"
+                        component="p"
+                        align="center"
+                      >
+                        Developer Associate
+                      </Typography>
+                    </CardContent>
+                  </Card>
+                </Grid>
+              </Grid>
             </CardContent>
           </Card>
         </Box>
