@@ -22,7 +22,7 @@ import NavItem from './NavItem';
 
 const user = {
   avatar: '/static/images/avatars/avatar_6.png',
-  jobTitle: 'Senior Developer',
+  jobTitle: 'Software Developer',
   name: 'Uriel Antonio'
 };
 

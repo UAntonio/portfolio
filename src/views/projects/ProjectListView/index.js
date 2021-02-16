@@ -57,11 +57,6 @@ const ProjectList = () => {
           display="flex"
           justifyContent="center"
         >
-          {/* <Pagination
-            color="primary"
-            count={3}
-            size="small"
-          /> */}
         </Box>
       </Container>
     </Page>

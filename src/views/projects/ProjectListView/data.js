@@ -3,7 +3,7 @@ import { v4 as uuid } from 'uuid';
 export default [
   {
     id: uuid(),
-    description: 'Find recipes online by ingredient that you would want to cook with.',
+    description: 'Find recipes online by an ingredient that you would want to cook with',
     media: '/static/images/projects/BasicFoodSearch.png',
     title: 'Food Search',
     stack: 'JavaScript',
@@ -12,7 +12,7 @@ export default [
   },
   {
     id: uuid(),
-    description: 'Store special events that are worthy to be remember.',
+    description: 'Store special events and memories in one place',
     media: '/static/images/projects/memories.png',
     title: 'Memory Storage',
     stack: 'MongoDB, Express, React, JavaScript',
@@ -21,7 +21,7 @@ export default [
   },
   {
     id: uuid(),
-    description: 'A pokedex for the gen 1 pokemon',
+    description: 'A Pokédex for the gen 1 Pokémon',
     media: '/static/images/projects/pokedex.png',
     title: 'Flutter Poke Application',
     stack: 'Flutter, Dart, codemagic',
@@ -37,14 +37,5 @@ export default [
     gitUrl: 'https://github.com/UAntonio/tinder-clone',
     liveUrl: 'https://tinderclone2020.netlify.app',
   },
-  // {
-  //   id: uuid(),
-  //   description: 'Something that looks like tic tok',
-  //   media: '/static/images/projects/product_6.png',
-  //   title: 'Tik Tok clone',
-  //   stack: 'MongoDB, Express, React, JavaScript',
-  //   gitUrl: 'https://github.com/UAntonio/TikTokClone',
-  //   liveUrl: 'https://www.google.com/',
-  // },
 
 ];
